@@ -21,4 +21,5 @@ jobs:
             git pull origin main
             cd database/migration
             set -a; source ~/wilvault-db/.env; set +a
-            goose up
+            ~/go/bin/goose up
+
